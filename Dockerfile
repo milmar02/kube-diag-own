@@ -38,7 +38,7 @@ ADD entrypoint.sh /entrypoint.sh
 RUN chmod -R g+w /usr/local/openresty \
 && chmod g+x /entrypoint.sh
 
-USER 0
+USER root
 
 
 EXPOSE 8080
