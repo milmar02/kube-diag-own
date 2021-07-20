@@ -13,6 +13,8 @@ RUN yum-config-manager --add-repo https://openresty.org/package/centos/openresty
 && yum install -y \
 wget \
 nmap \
+maven \
+git \
 ping \
 telnet \
 curl \
